@@ -1,5 +1,5 @@
 # Sequence-Data-Preprocesser-
-This program is a preprocesser that removes primers and adapters from sequences in a fasta file. The assumption is made that the adapters are at the ends of the sequences, attached to the primers. Biopython is used to parse the file.
+This program is a preprocesser that removes primers and adapters from sequences in a fasta file. The assumption is made that the adapters are at the ends of the sequences, attached to the primers. Biopython is used to parse the file. A log file is outputted at the end of the program with general statistics.
 
 ## **Assumed Sequence Makeup:** <br/>
 [adapters][forward primer] - [sequence] - [reverse primer][adapter]<br/>
