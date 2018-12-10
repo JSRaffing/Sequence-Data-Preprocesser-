@@ -138,7 +138,7 @@ print(Length_dict)
 print(avg_trimmed_sequences)
 print(avg_raw_sequences)
 
-jr = open("mycut_jennien-raffington_log.txt", "a")  # file with basic statistics
+jr = open("log.txt", "a")  # file with basic statistics
 jr.write('Processed Reads: ' + repr(Length_dict) + '\n')
 jr.write('Trimmed Reads: ' + repr(trimmed_sequences) + '\n')
 jr.write('Average Read Length (Raw): ' + repr(avg_raw_sequences) + '\n')
